@@ -237,17 +237,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  function configurarWhatsapp() {
-    el.btnRsvp?.addEventListener("click", () => {
-      const numero = (convite.whatsappNumero || "").replace(/\D/g, "");
-      if (!numero || numero === "5511999999999") {
-        alert("Antes de publicar, coloque o WhatsApp real no início do script.js.");
-        return;
-      }
-      const texto = encodeURIComponent(convite.whatsappMensagem || "Confirmando presença!");
-      openExternal(`https://wa.me/${numero}?text=${texto}`);
-    });
-  }
 
   function configurarMaps() {
     el.btnMaps?.addEventListener("click", () => {
@@ -255,7 +244,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (!url) {
         const queryBase = (convite.mapsQuery || convite.endereco || "").trim();
         if (!queryBase || queryBase.includes("Exemplo")) {
-          alert("Antes de publicar, coloque o endereço real no início do script.js.");
+          alert("Antes de publicar, tenho que colocar o endereço real no início do script.js.");
           return;
         }
         url = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(queryBase)}`;
@@ -311,7 +300,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function configurarContagem() {
     const dataEvento = new Date(convite.dataEventoISO);
     if (Number.isNaN(dataEvento.getTime())) {
-      setText(el.countdownText, "Atualize a data da festa no script.js.");
+      setText(el.countdownText, "Atualizar a data da festa no script.js.");
       return;
     }
 
