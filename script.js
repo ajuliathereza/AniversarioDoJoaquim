@@ -16,13 +16,13 @@ document.addEventListener("DOMContentLoaded", () => {
     mensagemInterna:
       "Hakuna Matata! Todo o reino te espera para comemorar esse dia especial! 🦁",
 
-    dataExibicao: "15 de Março",
+    dataExibicao: "15 de Novembro",
 
-    horaExibicao: "16:00",
+    horaExibicao: "15:00",
 
     local: "Espaço Festa LáLáLá",
 
-    endereco: "Rua Exemplo, 123 — Porto Alegre/RS",
+   endereco: "Sítio Munay — Estrada Passo do Morrinho, 2000 — Porto Alegre/RS",
 
 
     // IMPORTANTE:
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Exemplo:
     // 2027-03-15T16:00:00-03:00
 
-    dataEventoISO: "2026-03-15T16:00:00-03:00",
+    dataEventoISO: "2026-11-15T15:00:00-03:00",
 
 
     // WHATSAPP
@@ -49,8 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     mapsLink: "",
 
-    mapsQuery: "Rua Exemplo, 123, Porto Alegre, RS",
-
+    mapsQuery: "Sítio Munay, Estrada Passo do Morrinho 2000, Porto Alegre, RS",
 
     // ÁLBUM
     // Quando tiver um álbum, cole o link.
