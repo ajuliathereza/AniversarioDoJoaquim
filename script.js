@@ -1186,7 +1186,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         setText(
           el.countdownText,
-          "A festa já começou / ou a data precisa ser atualizada. 🦁💛"
+          "A festa já começou 🦁💛"
         );
 
       }
