@@ -87,115 +87,341 @@
         </button>
       </section>
 
-      <section class="stage stage--content hidden" id="stageContent" aria-label="Informações do convite">
-        <div class="revealRibbon">
-          <span>HAKUNA MATATA</span>
-        </div>
+     <section class="stage stage--content hidden" id="stageContent" aria-label="Informações do convite">
 
-        <div class="storyCard">
-          <span class="storyCard__icon" aria-hidden="true"><img src="./assets/icons/leaf.svg" alt="" /></span>
-          <p id="txtMensagemInterna">Todo o reino te espera para comemorar esse dia especial!</p>
-          <span class="storyCard__icon storyCard__icon--flip" aria-hidden="true"><img src="./assets/icons/leaf.svg" alt="" /></span>
-        </div>
+  <div class="revealRibbon">
+    <span>HAKUNA MATATA</span>
+  </div>
 
-        <section class="eventSection" aria-labelledby="eventTitle">
-          <p class="sectionKicker">marque no calendário</p>
-          <h2 id="eventTitle">A aventura começa em</h2>
+  <div class="storyCard">
+    <span class="storyCard__icon" aria-hidden="true">
+      <img src="./assets/icons/leaf.svg" alt="" />
+    </span>
 
-          <div class="eventTickets">
-            <div class="ticket">
-              <span class="ticket__icon" aria-hidden="true"><img src="./assets/icons/calendar.svg" alt="" /></span>
-              <span class="ticket__label">Dia</span>
-              <strong id="txtData">15 de Março</strong>
-            </div>
-            <div class="ticket">
-              <span class="ticket__icon" aria-hidden="true"><img src="./assets/icons/clock.svg" alt="" /></span>
-              <span class="ticket__label">Horário</span>
-              <strong id="txtHora">16:00</strong>
-            </div>
-          </div>
-        </section>
+    <p id="txtMensagemInterna">
+      Todo o reino te espera para comemorar esse dia especial!
+    </p>
 
-        <section class="placeCard" aria-labelledby="placeTitle">
-          <div class="placeCard__pin" aria-hidden="true"><img src="./assets/icons/map.svg" alt="" /></div>
-          <div class="placeCard__copy">
-            <span>Local da aventura</span>
-            <h2 id="placeTitle"><span id="txtLocal">Espaço Festa LáLáLá</span></h2>
-            <p id="txtEndereco">Rua Exemplo, 123 — Porto Alegre/RS</p>
-          </div>
-          <button class="miniMapBtn" id="btnMaps" type="button" aria-label="Abrir localização da festa">Ver mapa</button>
-        </section>
+    <span class="storyCard__icon storyCard__icon--flip" aria-hidden="true">
+      <img src="./assets/icons/leaf.svg" alt="" />
+    </span>
+  </div>
 
-        <section class="countdownCard" aria-labelledby="countTitle">
-          <p class="sectionKicker">a contagem já começou</p>
-          <h2 id="countTitle">Falta pouco para o rugido da festa!</h2>
-          <div class="countdown" aria-live="polite">
-            <div><strong id="countDays">--</strong><span>dias</span></div>
-            <i>:</i>
-            <div><strong id="countHours">--</strong><span>horas</span></div>
-            <i>:</i>
-            <div><strong id="countMinutes">--</strong><span>min</span></div>
-            <i>:</i>
-            <div><strong id="countSeconds">--</strong><span>seg</span></div>
-          </div>
-          <p class="countdownText" id="countdownText">Carregando contagem...</p>
-        </section>
 
-        <div class="journeyDivider" aria-hidden="true">
-          <span class="journeyDivider__trail"><i></i><i></i><i></i><i></i><i></i></span>
-          <img src="./assets/images/simba-walk.png" alt="" />
-          <span class="journeyDivider__label">A aventura já começou</span>
-        </div>
+  <!-- DATA E HORÁRIO -->
+  <section class="eventSection" aria-labelledby="eventTitle">
 
-        <section class="actionSection" aria-labelledby="actionTitle">
-          <p class="sectionKicker">prepare sua mochila</p>
-          <h2 id="actionTitle">Tudo para a aventura</h2>
-          <div class="actionGrid">
-            <button class="actionBtn actionBtn--primary" id="btnRsvp" type="button">
-              <span class="actionBtn__icon"><img src="./assets/icons/chat.svg" alt="" /></span>
-              <span><strong>Confirmar presença</strong><small>pelo WhatsApp</small></span>
-              <b>›</b>
-            </button>
+    <p class="sectionKicker">marque no calendário</p>
 
-            <button class="actionBtn" id="btnPresentes" type="button" aria-haspopup="dialog" aria-controls="modalPresentes">
-              <span class="actionBtn__icon"><img src="./assets/icons/gift.svg" alt="" /></span>
-              <span><strong>Sugestões de presentes</strong><small>um mimo para o pequeno rei</small></span>
-              <b>›</b>
-            </button>
+    <h2 id="eventTitle">
+      A aventura começa em
+    </h2>
 
-            <button class="actionBtn" id="btnAlbum" type="button">
-              <span class="actionBtn__icon"><img src="./assets/icons/camera.svg" alt="" /></span>
-              <span><strong>Álbum da festa</strong><small>memórias do grande dia</small></span>
-              <b>›</b>
-            </button>
-          </div>
-        </section>
+    <div class="eventTickets">
 
-        <section class="savannaScene" aria-label="Mensagem final do convite">
-          <span class="savannaScene__sun" aria-hidden="true"></span>
-          <span class="savannaScene__hill savannaScene__hill--back" aria-hidden="true"></span>
-          <span class="savannaScene__hill savannaScene__hill--front" aria-hidden="true"></span>
+      <div class="ticket">
+        <span class="ticket__icon" aria-hidden="true">
+          <img src="./assets/icons/calendar.svg" alt="" />
+        </span>
 
-          <img class="savannaScene__nala" src="./assets/images/nala.png" alt="" aria-hidden="true" />
+        <span class="ticket__label">Dia</span>
 
-          <div class="savannaScene__copy">
-            <span>A turma já está esperando</span>
-            <strong>Nos vemos na savana!</strong>
-            <small>Um dia especial para guardar na memória.</small>
-          </div>
+        <strong id="txtData">
+          15 de Março
+        </strong>
+      </div>
 
-          <img class="savannaScene__friends" src="./assets/images/reileao1.png" alt="" aria-hidden="true" />
-          <span class="savannaScene__grass" aria-hidden="true"></span>
-        </section>
-      </section>
 
-      <footer class="footerArt">
-        <div class="footerArt__frame">
-          <img src="./assets/images/familia-joaquim.png" alt="Ilustração de uma criança em uma savana com animais" />
-          <div class="footerArt__gradient"></div>
-          <p class="footerArt__text">Te esperamos para viver essa aventura com a gente!</p>
-        </div>
-      </footer>
+      <div class="ticket">
+        <span class="ticket__icon" aria-hidden="true">
+          <img src="./assets/icons/clock.svg" alt="" />
+        </span>
+
+        <span class="ticket__label">Horário</span>
+
+        <strong id="txtHora">
+          16:00
+        </strong>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- LOCAL -->
+  <section class="placeCard" aria-labelledby="placeTitle">
+
+    <div class="placeCard__pin" aria-hidden="true">
+      <img src="./assets/icons/map.svg" alt="" />
+    </div>
+
+    <div class="placeCard__copy">
+
+      <span>Local da aventura</span>
+
+      <h2 id="placeTitle">
+        <span id="txtLocal">
+          Espaço Festa Alegria
+        </span>
+      </h2>
+
+      <p id="txtEndereco">
+        Rua Exemplo, 123 — São Paulo/SP
+      </p>
+
+    </div>
+
+    <button
+      class="miniMapBtn"
+      id="btnMaps"
+      type="button"
+      aria-label="Abrir localização da festa"
+    >
+      Ver mapa
+    </button>
+
+  </section>
+
+
+  <!-- CONTAGEM REGRESSIVA -->
+  <section class="countdownCard" aria-labelledby="countTitle">
+
+    <p class="sectionKicker">
+      a contagem já começou
+    </p>
+
+    <h2 id="countTitle">
+      Falta pouco para o rugido da festa!
+    </h2>
+
+    <div class="countdown" aria-live="polite">
+
+      <div>
+        <strong id="countDays">--</strong>
+        <span>dias</span>
+      </div>
+
+      <i>:</i>
+
+      <div>
+        <strong id="countHours">--</strong>
+        <span>horas</span>
+      </div>
+
+      <i>:</i>
+
+      <div>
+        <strong id="countMinutes">--</strong>
+        <span>min</span>
+      </div>
+
+      <i>:</i>
+
+      <div>
+        <strong id="countSeconds">--</strong>
+        <span>seg</span>
+      </div>
+
+    </div>
+
+    <p class="countdownText" id="countdownText">
+      Carregando contagem...
+    </p>
+
+  </section>
+
+
+  <!-- SIMBA CAMINHANDO -->
+  <div class="journeyDivider" aria-hidden="true">
+
+    <span class="journeyDivider__trail">
+      <i></i>
+      <i></i>
+      <i></i>
+      <i></i>
+      <i></i>
+    </span>
+
+    <img
+      src="./assets/images/simba-walk.png"
+      alt=""
+    />
+
+    <span class="journeyDivider__label">
+      A aventura já começou
+    </span>
+
+  </div>
+
+
+  <!-- BOTÕES -->
+  <section class="actionSection" aria-labelledby="actionTitle">
+
+    <p class="sectionKicker">
+      prepare sua mochila
+    </p>
+
+    <h2 id="actionTitle">
+      Tudo para a aventura
+    </h2>
+
+    <div class="actionGrid">
+
+
+      <!-- WHATSAPP -->
+      <button
+        class="actionBtn actionBtn--primary"
+        id="btnRsvp"
+        type="button"
+      >
+
+        <span class="actionBtn__icon">
+          <img src="./assets/icons/chat.svg" alt="" />
+        </span>
+
+        <span>
+          <strong>Confirmar presença</strong>
+          <small>pelo WhatsApp</small>
+        </span>
+
+        <b>›</b>
+
+      </button>
+
+
+      <!-- PRESENTES -->
+      <button
+        class="actionBtn"
+        id="btnPresentes"
+        type="button"
+        aria-haspopup="dialog"
+        aria-controls="modalPresentes"
+      >
+
+        <span class="actionBtn__icon">
+          <img src="./assets/icons/gift.svg" alt="" />
+        </span>
+
+        <span>
+          <strong>Sugestões de presentes</strong>
+          <small>um mimo para o pequeno rei</small>
+        </span>
+
+        <b>›</b>
+
+      </button>
+
+
+      <!-- ÁLBUM -->
+      <button
+        class="actionBtn"
+        id="btnAlbum"
+        type="button"
+      >
+
+        <span class="actionBtn__icon">
+          <img src="./assets/icons/camera.svg" alt="" />
+        </span>
+
+        <span>
+          <strong>Álbum da festa</strong>
+          <small>memórias do grande dia</small>
+        </span>
+
+        <b>›</b>
+
+      </button>
+
+    </div>
+
+  </section>
+
+
+  <!-- CENA DA SAVANA -->
+  <section
+    class="savannaScene"
+    aria-label="Mensagem final do convite"
+  >
+
+    <span
+      class="savannaScene__sun"
+      aria-hidden="true">
+    </span>
+
+    <span
+      class="savannaScene__hill savannaScene__hill--back"
+      aria-hidden="true">
+    </span>
+
+    <span
+      class="savannaScene__hill savannaScene__hill--front"
+      aria-hidden="true">
+    </span>
+
+
+    <img
+      class="savannaScene__nala"
+      src="./assets/images/nala.png"
+      alt=""
+      aria-hidden="true"
+    />
+
+
+    <div class="savannaScene__copy">
+
+      <span>
+        A turma já está esperando
+      </span>
+
+      <strong>
+        Nos vemos na savana!
+      </strong>
+
+      <small>
+        Um dia especial para guardar na memória.
+      </small>
+
+    </div>
+
+
+    <img
+      class="savannaScene__friends"
+      src="./assets/images/reileao1.png"
+      alt=""
+      aria-hidden="true"
+    />
+
+    <span
+      class="savannaScene__grass"
+      aria-hidden="true">
+    </span>
+
+  </section>
+
+
+  <!-- FOTO FINAL DA FAMÍLIA -->
+  <footer class="footerArt">
+
+    <div class="footerArt__frame">
+
+      <img
+        src="./assets/images/familia-joaquim.png"
+        alt="Joaquim com sua família"
+      />
+
+      <div class="footerArt__gradient"></div>
+
+      <p class="footerArt__text">
+        Te esperamos para viver essa aventura com a gente!
+      </p>
+
+    </div>
+
+  </footer>
+
+
+</section>
 
       <div class="cornerPaw cornerPaw--a" aria-hidden="true"><img src="./assets/icons/paw.svg" alt="" /></div>
       <div class="cornerPaw cornerPaw--b" aria-hidden="true"><img src="./assets/icons/paw.svg" alt="" /></div>
