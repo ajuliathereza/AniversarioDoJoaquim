@@ -308,7 +308,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       setText(
         el.musicStatus,
-        "tocando baixinho"
+        "Rádio Leãozinho"
       );
 
     }
