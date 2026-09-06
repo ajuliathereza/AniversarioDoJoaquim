@@ -10,8 +10,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     dataExibicao: "15 de Março",
     horaExibicao: "16:00",
-    local: "Espaço Festa Alegria",
-    endereco: "Rua Exemplo, 123 — São Paulo/SP",
+    local: "Espaço Festa LáLáLá",
+    endereco: "Rua Exemplo, 123 — Porto Alegre/RS",
 
     // IMPORTANTE: troque pela data REAL da festa.
     // Exemplo: 2027-03-15T16:00:00-03:00
@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Cole um link pronto do Google Maps aqui, se tiver.
     mapsLink: "",
-    mapsQuery: "Rua Exemplo, 123, São Paulo, SP",
+    mapsQuery: "Rua Exemplo, 123, Porto Alegre, RS",
 
     // Quando tiver um álbum, cole o link. Vazio = mostra “Em breve”.
     albumLink: "",
