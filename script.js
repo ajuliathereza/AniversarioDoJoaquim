@@ -319,7 +319,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const diff = dataEvento.getTime() - Date.now();
       preencherContagem(diff);
       if (diff <= 0) {
-        setText(el.countdownText, "A festa já começou — ou a data precisa ser atualizada. 🦁💛");
+        setText(el.countdownText, "A festa já começou / ou a data precisa ser atualizada. 🦁💛");
       } else {
         setText(el.countdownText, "Cada segundo deixa a aventura mais pertinho.");
       }
