@@ -237,7 +237,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-
   function configurarMaps() {
     el.btnMaps?.addEventListener("click", () => {
       let url = (convite.mapsLink || "").trim();
