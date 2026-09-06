@@ -169,7 +169,7 @@ document.addEventListener("DOMContentLoaded", () => {
     el.musicControl.classList.remove("is-hidden");
 
     // A chamada a play() acontece dentro do clique do envelope para o iPhone
-    // entender que o áudio foi iniciado pela pessoa, não automaticamente.
+    // entender que o áudio foi iniciado pela pessoa, não automaticamente.`
     el.bgMusic.volume = 0.01;
     tocarMusica();
   }
