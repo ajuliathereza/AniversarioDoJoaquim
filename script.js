@@ -20,9 +20,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     horaExibicao: "15:00",
 
-    local: "Espaço Festa LáLáLá",
+    local: "Sítio Munay",
 
-   endereco: "Sítio Munay — Estrada Passo do Morrinho, 2000 — Porto Alegre/RS",
+   endereco: "Estrada Passo do Morrinho, 2000 — Porto Alegre/RS",
 
 
     // IMPORTANTE:
@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     mapsLink: "",
 
-    mapsQuery: "Sítio Munay, Estrada Passo do Morrinho 2000, Porto Alegre, RS",
+    mapsQuery: "Estrada Passo do Morrinho 2000, Porto Alegre, RS",
 
     // ÁLBUM
     // Quando tiver um álbum, cole o link.
