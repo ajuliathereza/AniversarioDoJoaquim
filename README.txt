@@ -1,30 +1,65 @@
-CONVITE DO JOAQUIM — V2
-=======================
+# 🦁 Convite Digital — Aniversário do Joaquim
 
-1. Abra script.js.
-2. Edite SOMENTE o bloco "CONFIGURAÇÃO DO CONVITE" no começo do arquivo:
-   - data / hora
-   - local / endereço
-   - dataEventoISO
-   - WhatsApp
-   - Maps
-   - álbum (quando existir)
-3. Teste abrindo index.html no navegador.
-4. Para publicar no Netlify:
-   - compacte ou arraste a pasta inteira para o Netlify Drop;
-   - o arquivo index.html já está na raiz;
-   - não renomeie as pastas assets/images e assets/videos.
+Convite digital interativo desenvolvido para uma festa de aniversário, com temática inspirada na savana, animações, música, contagem regressiva, localização e confirmação de presença.
 
-IMPORTANTE
----------
-A data de exemplo atualmente é 15/03/2026, que já passou em agosto/2026.
-Troque dataEventoISO pela data REAL antes de publicar para a contagem funcionar.
+🌐 **Projeto publicado:**  
+https://joaquim.nexosolutions.site
 
-V4: personagens integrados em cenas (Simba caminhando + cena final com Nala e turma).
+---
 
+## ✨ Funcionalidades
 
-V5 — TRILHA SONORA
-- O arquivo de áudio está em assets/audio/ciclo-da-vida.mp3.
-- A música começa somente quando a pessoa toca no envelope, com fade-in suave e volume baixo.
-- O botão flutuante “Trilha da savana” permite pausar, continuar e tocar novamente quando terminar.
-- Para trocar a música, substitua o MP3 mantendo o mesmo nome, ou altere o caminho no index.html.
+- Convite interativo com abertura por envelope
+- Layout responsivo para celulares e computadores
+- Trilha sonora
+- Contagem regressiva para o evento
+- Informações de data, horário e local
+- Link para localização
+- Confirmação de presença via WhatsApp
+- Elementos visuais e animações temáticas
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- HTML
+- CSS
+- JavaScript
+- Git
+- GitHub
+- GitHub Pages
+- DNS personalizado
+
+---
+
+## ⚙️ Configuração
+
+As principais informações do convite ficam centralizadas no início do arquivo:
+
+`script.js`
+
+No bloco de configuração podem ser alterados:
+
+- data e horário
+- local
+- endereço
+- data do evento
+- WhatsApp
+- localização
+- álbum, quando utilizado
+
+Isso evita precisar alterar essas informações em vários pontos do HTML.
+
+---
+
+## 📁 Estrutura
+
+```text
+.
+├── index.html
+├── style.css
+├── script.js
+└── assets/
+    ├── images/
+    ├── videos/
+    └── audio/
