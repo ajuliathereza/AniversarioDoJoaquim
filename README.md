@@ -2,7 +2,7 @@
 
 Convite digital interativo desenvolvido para uma festa de aniversário, com temática inspirada na savana, animações, música, contagem regressiva, localização e confirmação de presença.
 
-🌐 **Projeto publicado:**  
+🌐 **Projeto publicado**  
 https://joaquim.nexosolutions.site
 
 ---
